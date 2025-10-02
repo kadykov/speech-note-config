@@ -5093,6 +5093,11 @@
                 "https://huggingface.co/ggerganov/whisper.cpp/resolve/80da2d8bfee42b0e836fc3a9890373e5defc00a6/ggml-small.en.bin"
             ],
             "size": "487614201",
+            "license": {
+                "id": "MIT",
+                "name": "MIT License",
+                "accept_required": false
+            },
             "pack_id": "en_whisper"
         },
         {
@@ -5136,6 +5141,11 @@
                 "https://huggingface.co/ggerganov/whisper.cpp/resolve/80da2d8bfee42b0e836fc3a9890373e5defc00a6/ggml-medium.en.bin"
             ],
             "size": "1533774781",
+            "license": {
+                "id": "MIT",
+                "name": "MIT License",
+                "accept_required": false
+            },
             "pack_id": "en_whisper"
         },
         {
@@ -5150,6 +5160,11 @@
                 "https://huggingface.co/ggerganov/whisper.cpp/resolve/0b364b566045a405be7225ee1e415a073e04da77/ggml-medium.en-q8_0.bin"
             ],
             "size": "823382461",
+            "license": {
+                "id": "MIT",
+                "name": "MIT License",
+                "accept_required": false
+            },
             "pack_id": "en_whisper"
         },
         {
@@ -5199,6 +5214,11 @@
             "urls": [
                 "https://huggingface.co/distil-whisper/distil-medium.en/resolve/44d04c539c51702a7a0c7b72a807621292805bc7/ggml-medium-32-2.en.bin"
             ],
+            "license": {
+                "id": "MIT",
+                "name": "MIT License",
+                "accept_required": false
+            },
             "size": "794018180",
             "pack_id": "en_whisper_distil"
         },
@@ -5250,6 +5270,11 @@
                 "https://huggingface.co/distil-whisper/distil-large-v3.5-ggml/resolve/4011256ca17175639a227e35c07a96f0b5a6ce8a/ggml-model.bin"
             ],
             "size": "1519521155",
+            "license": {
+                "id": "MIT",
+                "name": "MIT License",
+                "accept_required": false
+            },
             "pack_id": "en_whisper_distil"
         },
         {
