@@ -5082,6 +5082,20 @@
             "pack_id": "en_whisper"
         },
         {
+            "name": "English (WhisperCpp Small) FP16",
+            "model_id": "en_whisper_small_fp16",
+            "engine": "stt_whisper",
+            "lang_id": "en",
+            "checksum": "cee06ee7",
+            "checksum_quick": "f9325d92",
+            "comp": "none",
+            "urls": [
+                "https://huggingface.co/ggerganov/whisper.cpp/resolve/80da2d8bfee42b0e836fc3a9890373e5defc00a6/ggml-small.en.bin"
+            ],
+            "size": "487614201",
+            "pack_id": "en_whisper"
+        },
+        {
             "name": "English (WhisperCpp Medium)",
             "model_id": "en_whisper_medium",
             "engine": "stt_whisper",
@@ -5108,6 +5122,34 @@
             "features": [
                 "hw_openvino"
             ],
+            "pack_id": "en_whisper"
+        },
+        {
+            "name": "English (WhisperCpp Medium) FP16",
+            "model_id": "en_whisper_medium_fp16",
+            "engine": "stt_whisper",
+            "lang_id": "en",
+            "checksum": "9c67c71e",
+            "checksum_quick": "d7d93df5",
+            "comp": "none",
+            "urls": [
+                "https://huggingface.co/ggerganov/whisper.cpp/resolve/80da2d8bfee42b0e836fc3a9890373e5defc00a6/ggml-medium.en.bin"
+            ],
+            "size": "1533774781",
+            "pack_id": "en_whisper"
+        },
+        {
+            "name": "English (WhisperCpp Medium) q8_0",
+            "model_id": "en_whisper_medium_q8_0",
+            "engine": "stt_whisper",
+            "lang_id": "en",
+            "checksum": "7558d434",
+            "checksum_quick": "9a5c447f",
+            "comp": "none",
+            "urls": [
+                "https://huggingface.co/ggerganov/whisper.cpp/resolve/0b364b566045a405be7225ee1e415a073e04da77/ggml-medium.en-q8_0.bin"
+            ],
+            "size": "823382461",
             "pack_id": "en_whisper"
         },
         {
