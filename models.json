@@ -4716,6 +4716,25 @@
             "hidden": true
         },
         {
+            "name": "Multilingual (WhisperCpp Large-v3) FP16",
+            "model_id": "multilang_whisper_large3_fp16",
+            "engine": "stt_whisper",
+            "lang_id": "multilang",
+            "checksum": "8f89afd0",
+            "checksum_quick": "186f7911",
+            "comp": "none",
+            "urls": [
+                "https://huggingface.co/ggerganov/whisper.cpp/resolve/362722b3fdcd2300b58a8286933ead1c48619667/ggml-large-v3.bin"
+            ],
+            "size": "3095033483",
+            "license": {
+                "id": "MIT",
+                "name": "MIT License",
+                "accept_required": false
+            },
+            "hidden": true
+        },
+        {
             "name": "Multilingual (WhisperCpp Large-v3 Turbo)",
             "model_id": "multilang_whisper_large3_turbo",
             "engine": "stt_whisper",
@@ -4726,6 +4745,25 @@
             "urls": [
                 "https://huggingface.co/ggerganov/whisper.cpp/resolve/4496f29dabb6f37d8e6c45c3ec89ccbe66a832ea/ggml-large-v3-turbo-q5_0.bin"
             ],
+            "hidden": true
+        },
+        {
+            "name": "Multilingual (WhisperCpp Large-v3 Turbo) FP16",
+            "model_id": "multilang_whisper_large3_turbo_fp16",
+            "engine": "stt_whisper",
+            "lang_id": "multilang",
+            "checksum": "9decb7f7",
+            "checksum_quick": "654beffd",
+            "comp": "none",
+            "urls": [
+                "https://huggingface.co/ggerganov/whisper.cpp/resolve/98aa99a0a9db05ae2342309f5096248665f7cba3/ggml-large-v3-turbo.bin"
+            ],
+            "size": "1624555275",
+            "license": {
+                "id": "MIT",
+                "name": "MIT License",
+                "accept_required": false
+            },
             "hidden": true
         },
         {
@@ -5285,9 +5323,23 @@
             "pack_id": "en_whisper"
         },
         {
+            "name": "English (WhisperCpp Large-v3) FP16",
+            "model_id": "en_whisper_large3_fp16",
+            "model_alias_of": "multilang_whisper_large3_fp16",
+            "lang_id": "en",
+            "pack_id": "en_whisper"
+        },
+        {
             "name": "English (WhisperCpp Large-v3 Turbo)",
             "model_id": "en_whisper_large3_turbo",
             "model_alias_of": "multilang_whisper_large3_turbo",
+            "lang_id": "en",
+            "pack_id": "en_whisper"
+        },
+        {
+            "name": "English (WhisperCpp Large-v3 Turbo) FP16",
+            "model_id": "en_whisper_large3_turbo_fp16",
+            "model_alias_of": "multilang_whisper_large3_turbo_fp16",
             "lang_id": "en",
             "pack_id": "en_whisper"
         },
@@ -5666,9 +5718,21 @@
             "lang_id": "ru"
         },
         {
+            "name": "Русский (WhisperCpp Large-v3) FP16",
+            "model_id": "ru_whisper_large3_fp16",
+            "model_alias_of": "multilang_whisper_large3_fp16",
+            "lang_id": "ru"
+        },
+        {
             "name": "Русский (WhisperCpp Large-v3 Turbo)",
             "model_id": "ru_whisper_large3_turbo",
             "model_alias_of": "multilang_whisper_large3_turbo",
+            "lang_id": "ru"
+        },
+        {
+            "name": "Русский (WhisperCpp Large-v3 Turbo) FP16",
+            "model_id": "ru_whisper_large3_turbo_fp16",
+            "model_alias_of": "multilang_whisper_large3_turbo_fp16",
             "lang_id": "ru"
         },
         {
@@ -5834,9 +5898,21 @@
             "lang_id": "fr"
         },
         {
+            "name": "Français (WhisperCpp Large-v3) FP16",
+            "model_id": "fr_whisper_large3_fp16",
+            "model_alias_of": "multilang_whisper_large3_fp16",
+            "lang_id": "fr"
+        },
+        {
             "name": "Français (WhisperCpp Large-v3 Turbo)",
             "model_id": "fr_whisper_large3_turbo",
             "model_alias_of": "multilang_whisper_large3_turbo",
+            "lang_id": "fr"
+        },
+        {
+            "name": "Français (WhisperCpp Large-v3 Turbo) FP16",
+            "model_id": "fr_whisper_large3_turbo_fp16",
+            "model_alias_of": "multilang_whisper_large3_turbo_fp16",
             "lang_id": "fr"
         },
         {
