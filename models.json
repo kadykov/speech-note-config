@@ -5139,6 +5139,25 @@
             "pack_id": "en_whisper"
         },
         {
+            "name": "English (WhisperCpp Small) q8_0",
+            "model_id": "en_whisper_small_q8_0",
+            "engine": "stt_whisper",
+            "lang_id": "en",
+            "checksum": "ebf314b6",
+            "checksum_quick": "ffcd75d3",
+            "comp": "none",
+            "urls": [
+                "https://huggingface.co/ggerganov/whisper.cpp/resolve/0b364b566045a405be7225ee1e415a073e04da77/ggml-small.en-q8_0.bin"
+            ],
+            "size": "264477561",
+            "license": {
+                "id": "MIT",
+                "name": "MIT License",
+                "accept_required": false
+            },
+            "pack_id": "en_whisper"
+        },
+        {
             "name": "English (WhisperCpp Medium)",
             "model_id": "en_whisper_medium",
             "engine": "stt_whisper",

@@ -17,7 +17,7 @@ This repository contains a `models.json` file that adds the following WhisperCpp
   - Multilingual (Large-v3, Large-v3 Turbo) - also available for Russian and French
   
 - **q8_0 variants** (8-bit quantization):
-  - English: Medium
+  - English: Small, Medium
 
 ## How to Use
 
