@@ -5335,6 +5335,25 @@
             "pack_id": "en_whisper_distil"
         },
         {
+            "name": "English (WhisperCpp Distil Large-v3.5) q8_0",
+            "model_id": "en_whisper_distil_large3_5_q8_0",
+            "engine": "stt_whisper",
+            "lang_id": "en",
+            "checksum": "7ce6decd",
+            "checksum_quick": "a58847c0",
+            "comp": "none",
+            "urls": [
+                "https://huggingface.co/Pomni/distil-large-v3.5-ggml-allquants/resolve/dd7a9b4d5d2431bc0c1c381c52d9f050302808fb/ggml-distil-large-v3.5-q8_0.bin"
+            ],
+            "size": "818305955",
+            "license": {
+                "id": "MIT",
+                "name": "MIT License",
+                "accept_required": false
+            },
+            "pack_id": "en_whisper_distil"
+        },
+        {
             "name": "English (WhisperCpp Large-v3)",
             "model_id": "en_whisper_large",
             "model_alias_of": "multilang_whisper_large",
